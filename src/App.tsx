@@ -63,7 +63,8 @@ console.log(datas[0].timeframes.daily.current);
         <div className='main-app'>
           <div className='name-card'>
             <div className='name-report'>
-              <img className='profile-img' src='src\assets\image-jeremy.png'></img>
+              <img className='profile-img' src='https://github.com/paluras/treack/blob/main/src/assets/image-jeremy.png?raw=true'
+              alt='profile-pic'></img>
               <div className='text'>
               <p>Report for</p>
               <h1>Jeremy Robson</h1>
