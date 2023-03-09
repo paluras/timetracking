@@ -10,7 +10,7 @@ function Card (props: { hours: number ,text: string, color:string, bg:string, ho
               <div className={props.color}></div>
               <div className='card-body'  >
                  <div className='card-nav'>{props.text}
-                 <img src={'https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-ellipsis.svg'} alt="dots"></img>
+                 <img src={'https://raw.githubusercontent.com/paluras/timetracking/f45d26bfc494c03c4d8c935f02ace48a78aa0d98/src/assets/icon-ellipsis.svg'} alt="dots"></img>
                  </div> 
             <div className="card-main">
                  <div className='hours'>{props.hours}</div>
