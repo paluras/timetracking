@@ -102,7 +102,7 @@ body{
 .work-color{
   background-color: #ff8b64;
   height: 30%;
-  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-work.svg?token=AXMEMFQBJPHSYZ7Z6EBRB73EBIA5S");
+  background-image: url("https://raw.githubusercontent.com/paluras/timetracking/c9f595a70322e8e09bd93cba22e8be4450038580/src/assets/icon-work.svg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position-x: 90%;
@@ -112,7 +112,7 @@ body{
 .play-color{
   background-color: #56c1e6;
   height: 30%;
-  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-play.svg?token=AXMEMFV24P5NWP4OHRJSUJTEBIAZG");
+  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-play.svg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position-x: 90%;
@@ -122,7 +122,7 @@ body{
 .study-color{
   background-color: #ff5e7d;
   height: 30%;
-  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-study.svg?token=AXMEMFTVATCQ5SPM57R4HL3EBIA4K");
+  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-study.svg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position-x: 90%;
@@ -132,7 +132,7 @@ body{
 .exercise-color{
   background-color: #4bcf83;
   height: 30%;
-  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-exercise.svg?token=AXMEMFTF74PVM2F7573KP4TEBIAWU");
+  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-exercise.svg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position-x: 90%;
@@ -142,7 +142,7 @@ body{
 .social-color{
   background-color: #7235d1;
   height: 30%;
-  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-social.svg?token=AXMEMFVQPVTECZKRI5VHQT3EBIA3Q");
+  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-social.svg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position-x: 90%;
@@ -153,7 +153,7 @@ body{
   background-color: #f1c75c;
   height: 30%;
  
-  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-self-care.svg?token=AXMEMFRRWB7QGG67VR7JBODEBIA2G");
+  background-image: url("https://raw.githubusercontent.com/paluras/treack/478fe3914dbefafd36b07a695778cda204bfba4e/src/assets/icon-self-care.svg");
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position-x: 90%;
