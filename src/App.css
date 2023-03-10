@@ -3,6 +3,7 @@
   padding: 0px;
   color: white;
   font-family: 'Rubik', sans-serif;
+  
 }
 
 body{
@@ -54,16 +55,18 @@ body{
   padding: 20px 0px 20px 20px;
   padding-top:50px;
   padding-bottom: 0px; 
+  max-height: 30.5vh;
 }
 .text{
   display: flex;
   flex-direction: column;
+  max-width: 90%;
 }
 
 .name-report h1 {
- font-size: 30px;
+ font-size: 2.5vh;
  font-weight: 300;
- line-height: 47px;
+ line-height: 3vh;
 }
 .name-report p {
   font-size: 15px;
@@ -73,7 +76,7 @@ body{
 
 .profile-img{
   object-fit: contain;
-  width: 78px;
+  max-width: 60px;
   border: 2px solid white;
   border-radius: 100%;
   margin-bottom: 30px;
@@ -177,7 +180,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
+    padding: 2.5vh;
     background-color: #1e204b;
     border-radius: 10px;
 }
@@ -262,6 +265,11 @@ body{
 .play-color{
   height: 60px;
 }
+.name-report h1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+ }
 
 .card-main{
   display: flex;
