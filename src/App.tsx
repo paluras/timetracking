@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import './App.scss'
 import Card from './Card'
 import data from "../src/data.json" 
@@ -16,7 +15,6 @@ function handleClickDay(){
  function handleClickMonth(){
   return(setCount('monthly'))
  }
-console.log(count);
 
 let colors1 = '';
 let colors2 = '';
@@ -29,7 +27,6 @@ if(count == "daily"){
 }else{
   colors3 ="White"
 }
-
 
 const datas = data;
 interface TimeframeData {
@@ -52,11 +49,8 @@ interface ActivityData {
   timeframes: TimeframeData;
 }
 //console.log(datas[0].timeframes.daily);
-
 //On click dates
 //if click on dayly display dayly values
-
-console.log(datas[0].timeframes.daily.current);
 
   return (
     <div className="App">
@@ -76,51 +70,49 @@ console.log(datas[0].timeframes.daily.current);
               <ul onClick={handleClickMonth}style={{color: colors3}}>Monthly</ul>
             </div>
           </div>
-          <Card 
-       
-         hours = {datas[0].timeframes[count as keyof TimeframeData].current}
- 
+
+        <Card 
+          hours = {datas[0].timeframes[count as keyof TimeframeData].current}
           hoursPrev= {datas[0].timeframes[count as keyof TimeframeData].previous}
           text={datas[0].title} 
           color={'work-color'}
           bg={"#ff8b64"} />
-          <Card 
+          
+        <Card 
           hours={datas[1].timeframes[count as keyof TimeframeData].current} 
           hoursPrev= {datas[1].timeframes[count as keyof TimeframeData].previous}
           text={'Play'} 
           color={'play-color'}
           bg={"#56c1e6"} />
-           <Card 
+           
+        <Card 
           hours={datas[2].timeframes[count as keyof TimeframeData].current} 
           hoursPrev= {datas[2].timeframes[count as keyof TimeframeData].previous}
-
           text={'Study'} 
           color={'study-color'}
           bg={"#ff5e7d"} />
-           <Card 
-
+           
+        <Card 
           hoursPrev= {datas[3].timeframes[count as keyof TimeframeData].previous}
           hours={datas[3].timeframes[count as keyof TimeframeData].current} 
           text={'Exercise'} 
           color={'exercise-color'}
           bg={"#4bcf83"} />
-           <Card 
-
+           
+        <Card 
           hoursPrev= {datas[4].timeframes[count as keyof TimeframeData].previous}
           hours={datas[4].timeframes[count as keyof TimeframeData].current} 
           text={'Social'} 
           color={'social-color'} 
           bg={"#7235d1"}/>
-           <Card 
-
+           
+       <Card 
           hoursPrev= {datas[5].timeframes[count as keyof TimeframeData].previous}
           hours={datas[5].timeframes[count as keyof TimeframeData].current} 
           text={'Self Care'} 
           color={'self-color'} 
           bg={"#f1c75c"}/>
-
         </div>
-
     </div>
   )
 }

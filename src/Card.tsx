@@ -2,9 +2,6 @@ import React from "react";
 
 
 function Card (props: { hours: number ,text: string, color:string, bg:string, hoursPrev:number,}){
-    
-    
-    
     return(
         <div style={{backgroundColor:props.bg}}  className='card' >
               <div className={props.color}></div>
