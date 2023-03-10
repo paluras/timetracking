@@ -235,7 +235,10 @@ body{
     background-color: #5746ea;
     border-radius: 10px;
     padding: 20px;
-    
+  }
+  .hours{
+    font-size: 48px;
+    font-weight: 300;
   }
 
   .dates{
@@ -276,8 +279,6 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-
-
 }
 .card-body:hover   {
   background-color: #33397a;
